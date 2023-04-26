@@ -1,11 +1,16 @@
 /*
 Colors: 
-- Primary: #e67e22
+- Primary: 
+#e67e22
 - Tints: 
 #fdf2e9
 #fae5d3
-- Shades: #cf711f
-- Accents: #51cf66
+#eb984e
+- Shades: 
+#cf711f
+#45260a
+- Accents: 
+#51cf66
 - Grays:
 #333
 #555
@@ -16,6 +21,11 @@ Colors:
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 html {
@@ -96,16 +106,19 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link, 
 .btn:visited {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
+  font-family: inherit;
   padding: 1.6rem 3.2rem;
   border-radius: .9rem;
-  cursor: pointer;
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
 }
 
 .btn--full:link, 
@@ -132,6 +145,17 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
 
 .link:link,
 .link:visited {
