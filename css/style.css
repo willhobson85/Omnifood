@@ -15,7 +15,7 @@
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -567,3 +567,4 @@
 .footer-link:active {
   color: #555;
 }
+
