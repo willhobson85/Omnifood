@@ -524,7 +524,19 @@
               <p class="cta-text">
                 Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
               </p>
-              <form class="cta-form" name="sign-up" netlify >
+              <form 
+                class="cta-form" 
+                name="sign-up" 
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                action="/success/"
+                netlify 
+              >
+                <input 
+                  class="d-none" 
+                  name="bot-field"
+                >
                 <div>
                   <label for="full-name">Full Name</label>
                   <input 
