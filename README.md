@@ -82,8 +82,6 @@ For this project, I focused on web design before mobile, which is the opposite o
 
 ## Contact
 
-![Contributors][contributors-shield]
-
 Will Hobson - [LinkedIn](https://www.linkedin.com/in/the-william-hobson/) [GitHub](https://github.com/willhobson85/)
 
 
